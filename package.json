@@ -32,7 +32,7 @@
   ],
   "dependencies": {
     "imagemagick": "git://github.com/rsms/node-imagemagick.git",
-    "mkdirp": "~0.3.3"
+    "mkdirp": "1.0.4"
   },
   "devDependencies": {
     "express": "^4.14.0"

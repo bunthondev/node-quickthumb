@@ -1,0 +1,69 @@
+Arguments: 
+  /opt/homebrew/Cellar/node@16/16.17.1/bin/node /opt/homebrew/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js add mkdirp
+
+PATH: 
+  /opt/homebrew/opt/node@16/bin:/opt/homebrew/opt/mongodb-community@3.6/bin:/opt/homebrew/opt/node@14/bin:/opt/homebrew/opt/node@14/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/Users/bunthon/.nvm/versions/node/v16.5.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/opt/homebrew/opt/node@16/bin:/opt/homebrew/opt/mongodb-community@3.6/bin:/opt/homebrew/opt/node@14/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/Users/bunthon/.nvm/versions/node/v16.5.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/bunthon/Library/Android/sdk/emulator:/Users/bunthon/Library/Android/sdk/tools:/Users/bunthon/Library/Android/sdk/tools/bin:/Users/bunthon/Library/Android/sdk/platform-tools:/Users/bunthon/dev/flutter/flutter/bin:/Users/bunthon/Library/Android/sdk/emulator:/Users/bunthon/Library/Android/sdk/tools:/Users/bunthon/Library/Android/sdk/tools/bin:/Users/bunthon/Library/Android/sdk/platform-tools:/Users/bunthon/dev/flutter/flutter/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.17.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/bunthon/dev/luma-system/node-quickthumb/package.json: Unexpected token } in JSON at position 830
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "quickthumb",
+    "version": "0.0.12",
+    "description": "On the fly, thumbnail creation middleware for express.",
+    "author": "Zach Ivester <zivester@gmail.com>",
+    "main": "index.js",
+    "scripts": {
+      "test": "node test/simple-test.js",
+      "start": "node test/express-test.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zivester/node-quickthumb.git"
+    },
+    "bugs": {
+      "url": "https://github.com/zivester/node-quickthumb/issues"
+    },
+    "licenses": [
+      {
+        "type": "MIT",
+        "url": "http://github.com/zivester/node-quickthumb/raw/master/LICENSE"
+      }
+    ],
+    "keywords": [
+      "thumb",
+      "thumbnail",
+      "image",
+      "imagemagick",
+      "timthumb",
+      "timthumb.php",
+      "resize"
+    ],
+    "dependencies": {
+      "imagemagick": "git://github.com/rsms/node-imagemagick.git",
+    },
+    "devDependencies": {
+      "express": "^4.14.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
